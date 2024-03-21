@@ -8,4 +8,26 @@ CREATE db_name;
 USE db_name;
 DROP db_name;
 ```
-2. 
+
+2. **Tornar um DB somente leitura**
+```mysql
+ALTER DATABASE db_name READ ONLY = 1;
+```
+
+3. **Criando tabelas**
+O valor *tipoDeDados* pode ser: *INT*, *DATE*, *DATETIME*, *VARCHAR*, entre outros...
+```mysql
+CREATE TABLE table_name (
+	coluna1 tipoDeDados,
+	coluna2 tipoDeDados,
+	coluna3 tipoDeDados,
+	.
+	.
+	.
+);
+```
+
+3. **dd**
+```mysql
+```
+
