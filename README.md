@@ -15,7 +15,7 @@ ALTER DATABASE db_name READ ONLY = 1;
 ```
 
 3. **Criando tabelas**
-O valor *tipoDeDados* pode ser: *INT*, *DATE*, *DATETIME*, *VARCHAR*, entre outros...
+* O valor *tipoDeDados* pode ser: *INT*, *DATE*, *DATETIME*, *VARCHAR*, entre outros...
 ```mysql
 CREATE TABLE table_name (
 	coluna1 tipoDeDados,
